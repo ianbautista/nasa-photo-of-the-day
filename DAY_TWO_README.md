@@ -1,4 +1,3 @@
-
 # NASA APOD Part II - Advanced Styling Techniques
 
 In this project you will refactor the styling you completed in the APOD app. You will style it using one of the styling libraries you learned in this module.
@@ -19,8 +18,8 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
 This homework is a continuation of the work you have done previously.
 
-- [ ] CD into your old project
-- [ ] Continue to make changes and push to the same branch
+- [x] CD into your old project
+- [x] Continue to make changes and push to the same branch
 
 Follow these steps for completing your project.
 
@@ -31,15 +30,15 @@ Follow these steps for completing your project.
 
 # _Project - NASA APOD (Continued...)_
 
-- [ ] This will be a continuation of the project you've already started.
-- [ ] Our goal here is to apply advance styling techniques for your React application.
-- [ ] You don't need to start from scratch. Use the work you did previously.
-- [ ] Let's say that the designs have changed. There are new ways and implementations of doing things as time goes by. As stated earlier, these are normal in the real world. It's time for us to dig into the code to make it better.
+- [x] This will be a continuation of the project you've already started.
+- [x] Our goal here is to apply advance styling techniques for your React application.
+- [x] You don't need to start from scratch. Use the work you did previously.
+- [x] Let's say that the designs have changed. There are new ways and implementations of doing things as time goes by. As stated earlier, these are normal in the real world. It's time for us to dig into the code to make it better.
 
 ## MVP Requirements
 
-- [ ] Refactor your project using a component library that was covered in class (Reactstrap or styled-components).
-- [ ] Implement and use at least a few styled components to beautify your project.
+- [x] Refactor your project using a component library that was covered in class (Reactstrap or styled-components).
+- [x] Implement and use at least a few styled components to beautify your project.
 
 ## Stretch Problems
 
