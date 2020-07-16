@@ -1,4 +1,13 @@
+
+* {
+  box-sizing: border-box;
+}
+
 .App {
+  text-align: center;
+}
+
+h1 {
   text-align: center;
 }
 
@@ -35,4 +44,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  padding: 1%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+}
+
+.imgContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  box-shadow: 0.25rem 0.25rem 1rem 0rem black;
+  overflow: hidden;
+}
+
+.nasaImages {
+  border-radius: 2.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  font-size: 1.5rem;
+}
+
+
+.nasalogo {
+  width: 15rem;
 }
