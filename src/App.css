@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -46,7 +47,6 @@ h1 {
 }
 
 .banner {
-  height: 100vh;
   width: 100%;
   display: flex;
   padding: 1%;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .imgContainer {
-  height: 85%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,17 +66,18 @@ h1 {
   box-shadow: 0.25rem 0.25rem 1rem 0rem black;
   overflow: hidden;
 }
-  img {
-    border-radius: 2.5rem;
-    width: 100%;
-    height: auto;
-  }
 
-  .description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: auto;
-    font-size: 1.5rem;
-  }
+img {
+  border-radius: 2.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  font-size: 1.5rem;
+}
