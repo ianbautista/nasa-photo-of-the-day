@@ -4,6 +4,7 @@ import Axios from "axios";
 import { NASA_API_KEY, NASA_BASE_URL } from "./components/constants";
 import Banner from "./components/Banner";
 import Mars from "./components/Mars";
+import NASALogo from "./nasalogo.png";
 console.log(Banner);
 function App() {
 	const [photoOfTheDay, setPhotoOfTheDay] = useState({});
@@ -50,7 +51,7 @@ function App() {
 	console.log(photoOfTheDay);
 	return (
 		<div className="App">
-			<img src="../public/nasalogo.png" alt="NASA Logo" />
+			<img className="nasalogo" src={NASALogo} alt="NASA Logo" />
 			<h1> PHOTO OF THE DAY </h1>
 			<Banner photoOfTheDay={photoOfTheDay} setPhotoOfTheDay={setPhotoOfTheDay} />
 			{/* {console.log(photoOfTheDay)} */}

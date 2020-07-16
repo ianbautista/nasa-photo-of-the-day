@@ -9,7 +9,7 @@ function Mars(props) {
 		<div className="banner">
 			<h1>Mars Photo</h1>
 			<section className="imgContainer">
-				<img alt={earthDate} src={imgSrc} />
+				<img className="nasaImages" alt={earthDate} src={imgSrc} />
 			</section>
 			<h2> {earthDate} </h2>
 		</div>
